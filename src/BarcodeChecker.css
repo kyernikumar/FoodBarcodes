@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: url("https://media.istockphoto.com/id/157636586/photo/variety-of-packaged-and-basic-foods-against-blue.webp?s=2048x2048&w=is&k=20&c=1h2yzrkZ0iJOp87WY6RN73fmEZsn31PV2Fzz42XrIBc=")
+    no-repeat center center fixed;
+  background-size: cover;
+}
+
+.barcode-container {
+  max-width: 500px;
+  margin: 80px auto;
+  text-align: center;
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.2); /* Transparent white */
+  border-radius: 15px;
+  backdrop-filter: blur(10px); /* <- blur effect */
+  -webkit-backdrop-filter: blur(10px);
+  color: #fff;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+input[type="text"] {
+  padding: 12px;
+  width: 60%;
+  max-width: 300px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+button {
+  padding: 12px 20px;
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background-color: #e64a19;
+}
+
+.loading {
+  color: #ffeb3b;
+  font-weight: bold;
+}
+
+.error {
+  color: #f44336;
+  font-weight: bold;
+}
+
+.item-details {
+  background-color: rgba(11, 11, 11, 0.15);
+  padding: 15px;
+  border-radius: 10px;
+  text-align: left;
+  margin-top: 20px;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.item-details img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+@media (max-width: 560px) {
+  .barcode-container {
+    width: 300px;
+  }
+
+  .barcode-container h1 {
+    font-size: 1.3rem;
+  }
+}
