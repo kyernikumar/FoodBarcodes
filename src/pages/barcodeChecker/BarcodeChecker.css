@@ -12,9 +12,9 @@ body {
   margin: 80px auto;
   text-align: center;
   padding: 25px;
-  background: rgba(255, 255, 255, 0.2); /* Transparent white */
+  background: rgba(255, 255, 255, 0.2);
   border-radius: 15px;
-  backdrop-filter: blur(10px); /* <- blur effect */
+  backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   color: #fff;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);

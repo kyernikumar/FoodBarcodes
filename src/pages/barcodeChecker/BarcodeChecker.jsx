@@ -15,7 +15,6 @@ const BarcodeChecker = () => {
     setItem(null);
 
     try {
-      // Example: Replace with your real API
       const res = await fetch(
         `https://world.openfoodfacts.org/api/v0/product/${barcode}.json`
       );
